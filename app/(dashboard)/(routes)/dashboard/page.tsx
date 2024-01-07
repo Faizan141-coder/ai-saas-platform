@@ -63,7 +63,7 @@ const DashboardPage = () => {
           <Card 
             onClick={() => router.push(tool.href)}
             key={tool.href}
-            className="p-4 border-black/5 flex items-center justify-between hover:shadow-md transition cursor-pointer"
+            className="p-2 border-gray-600/5 flex items-center justify-between hover:shadow-md dark:hover:shadow-slate-500 transition cursor-pointer"
           >
             <div className="flex items-center gap-x-4">
               <div className={cn("p-2 w-fit rounded-md", tool.bgColor)}>
